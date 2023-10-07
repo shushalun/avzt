@@ -1,1 +1,10 @@
-function updateButtonText(){let t=document.getElementById("fileInput"),e=document.getElementById("buttonText");t.files.length>0?e.textContent="Soubor byl nahrán "+t.files[0].name:e.textContent="Nahrát soubor"}
+function updateButtonText() {
+  let fileInput = document.getElementById('fileInput');
+  let buttonText = document.getElementById('buttonText');
+
+  if (fileInput.files.length > 0) {
+      buttonText.textContent = 'Soubor byl nahrán ' + fileInput.files[0].name;
+  } else {
+      buttonText.textContent = 'Nahrát soubor';
+  }
+}
