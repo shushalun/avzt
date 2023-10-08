@@ -12,9 +12,9 @@ function showSlides() {
   });
 
   let slidesToShow = 1;
-  if (window.innerWidth >= 768 && window.innerWidth < 1300) {
+  if (window.innerWidth >= 768 && window.innerWidth < 1024) {
     slidesToShow = 2;
-  } else if (window.innerWidth >= 1300) {
+  } else if (window.innerWidth >= 1024) {
     slidesToShow = 3;
   }
 
