@@ -1255,6 +1255,9 @@ a {
   outline: none;
   border: 3px solid #66b2f9;
 }
+.form-order__comment::placeholder {
+  color: #10273b;
+}
 @media (min-width: 1024px) {
   .form-order__comment {
     min-height: 231px;
